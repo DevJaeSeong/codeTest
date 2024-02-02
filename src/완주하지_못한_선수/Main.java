@@ -2,8 +2,6 @@ package 완주하지_못한_선수;
 
 public class Main {
 
-	private static Solution solution = new Solution3();
-	
 	/**
 	 * <h2>문제 설명</h2>
 	 * <p>
@@ -70,6 +68,8 @@ public class Main {
 	 * @see https://school.programmers.co.kr/learn/courses/30/lessons/42576
 	 */
 	public static void main(String[] args) {
+		
+		Solution solution = new Solution3();
 		
 		String[] participant = {"leo", "kiki", "eden"};
 		String[] completion = {"eden", "kiki"};
