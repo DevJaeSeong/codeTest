@@ -1,4 +1,4 @@
-package 완주하지_못한_선수;
+package 완주하지_못한_선수.solution;
 
 import java.util.ArrayList;
 import java.util.List;

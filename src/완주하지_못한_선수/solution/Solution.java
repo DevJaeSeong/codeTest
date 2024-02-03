@@ -1,6 +1,6 @@
-package 완주하지_못한_선수;
+package 완주하지_못한_선수.solution;
 
-public class Main {
+public interface Solution {
 
 	/**
 	 * <h2>문제 설명</h2>
@@ -65,17 +65,10 @@ public class Main {
 	 * </p>
 	 * <hr>
 	 * 
+	 * @param participant 참여자 명단
+	 * @param completion 완주자 명단
+	 * @return 완주하지 못한 선수 이름
 	 * @see https://school.programmers.co.kr/learn/courses/30/lessons/42576
 	 */
-	public static void main(String[] args) {
-		
-		Solution solution = new Solution3();
-		
-		String[] participant = {"leo", "kiki", "eden"};
-		String[] completion = {"eden", "kiki"};
-		
-		String result = solution.solution(participant, completion);
-		
-		System.out.println("result => " + result);
-	}
+	public String solution(String[] participant, String[] completion);
 }
